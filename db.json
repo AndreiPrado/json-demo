@@ -1,0 +1,28 @@
+{
+	"results": [
+		{
+			"id": 1,
+			"name": "POG",
+			"meta": 1500,
+			"atingido": 1220
+		},
+		{
+			"id": 2,
+			"name": "PROJETO AGRÍCOLA",
+			"meta": 8,
+			"atingido": 5
+		},
+		{
+			"id": 3,
+			"name": "COMPRA ESTRUTURADA",
+			"meta": 1400,
+			"atingido": 1000
+		},
+		{
+			"id": 4,
+			"name": "REFÚGIO",
+			"meta": 75,
+			"atingido": 60
+		}
+	]
+}
