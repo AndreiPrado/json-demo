@@ -1,6 +1,5 @@
 {
 	"kpi": [
-		// GET /monsanto/kpi?ge=1830205&cultura=Milho&marca=AGROCERES&programa=Aliança&cy=CY17
 		{
 			"sk_prog_distrib": "3",
 			"sk_programa_agricola": "8",
@@ -38,7 +37,6 @@
 		}
 	],
 	"detalhes-pog": [
-		// GET /monsanto/detalhes/pog?ge=1830205&produto-1=MILHO&produto-2=SORGO&marca=Agroceres&cy=CY17
 		{
 			"nr_ordem": "2",
 			"ds_ano": "2017",
@@ -76,7 +74,6 @@
 		}
 	],
 	"detalhes-refugio": [
-		// GET /monsanto/detalhes/refugio?ge=1830204&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17&compliance=NAO+CALCULADO
 		{
 			"sk_distribuidor":"",
 			"ds_crop_year":"",
@@ -88,7 +85,6 @@
 		}
 	],
 	"detalhes-compra-estruturada": [
-		// GET /monsanto/detalhes/compra-estruturada?ge=1830205&culutra=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17
 		{
 			"sk_venda_sap": "1579416",
 			"sk_tipo_venda": "806",
@@ -115,7 +111,6 @@
 		}
 	],
 	"detalhes-projeto-agricola": [
-		// GET /monsanto/detalhes/projeto-agricola?ge=1830205
 		{
 		  "cd_sap_matriz": "3532366",
 		  "ds_dealer": "AGRONEGOCIOS OKADA E OLIVEIRA LTDA - ME",
@@ -131,7 +126,6 @@
 		}
 	],
 	"detalhes-retencao": [
-		// GET /monsanto/detalhes/retencao?ge=1830205&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy-1=CY17&cy-2=CY17
 		{
 			"sk_distribuidor":"",
 			"ds_crop_year":"",
@@ -139,7 +133,6 @@
 		}
 	],
 	"detalhes-abrangencia": [
-		// GET /monsanto/detalhes/abrangencia?ge=1830205&milho=Milho&marca=AGROCERES&programa=AlianÁa&cy-1=CY17&cy-2=CY17
 		{
 			"sk_distribuidor":"",
 			"ds_crop_year":"",
@@ -147,7 +140,6 @@
 		}
 	],
 	"detalhes-premiacao-distribuidor": [
-		// GET /monsanto/detalhes/premiacao-distribuidor?ge=1830205&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17
 		{
 		  "sk_faturamento": "3508",
 		  "sk_distribuidor": "1281",
