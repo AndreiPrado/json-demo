@@ -73,17 +73,6 @@
 			"cd_execucao": "513"
 		}
 	],
-	"detalhes-refugio": [
-		{
-			"sk_distribuidor":"",
-			"ds_crop_year":"",
-			"sk_agricultor":"",
-			"sacas_bt":"",
-			"sacas_nbt":"",
-			"sacas_total":"",
-			"sacas_compliance":""
-		}
-	],
 	"detalhes-compra-estruturada": [
 		{
 			"sk_venda_sap": "1579416",
@@ -123,20 +112,6 @@
 		  "qt_qtde_projetos": "9",
 		  "dt_insercao_registro": "2018-02-26 19:10:46",
 		  "cd_execucao": "201"
-		}
-	],
-	"detalhes-retencao": [
-		{
-			"sk_distribuidor":"",
-			"ds_crop_year":"",
-			"sk_agricultor":""
-		}
-	],
-	"detalhes-abrangencia": [
-		{
-			"sk_distribuidor":"",
-			"ds_crop_year":"",
-			"sk_agricultor":""
 		}
 	],
 	"detalhes-premiacao-distribuidor": [
