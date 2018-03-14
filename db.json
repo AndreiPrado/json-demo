@@ -1,28 +1,191 @@
 {
-	"results": [
+	"kpi": [
+		// GET /monsanto/kpi?ge=1830205&cultura=Milho&marca=AGROCERES&programa=Aliança&cy=CY17
 		{
-			"id": 1,
-			"name": "POG",
-			"meta": 1500,
-			"atingido": 1220
-		},
+			"sk_prog_distrib": "3",
+			"sk_programa_agricola": "8",
+			"sk_categoria_distribuidor": "17",
+			"sk_distribuidor": "1299",
+			"sk_geografia_distribuidor": "-1",
+			"qt_sacas_bt": "450",
+			"qt_sacas_nbt": "0",
+			"in_compra_estruturada": "N",
+			"qt_agricultores_compliance": null,
+			"qt_agricultores_nao_compliance": null,
+			"in_refugio": null,
+			"qt_pog": "695",
+			"vl_meta_pog": "2507",
+			"in_pog": "N",
+			"in_gatilho": "N",
+			"qt_vendedores_proj_agricola": null,
+			"qt_vendedores_total": null,
+			"qt_projeto_agricola": null,
+			"vl_media_projeto_agricola": null,
+			"in_projeto_agricola": "N",
+			"qt_cientes_ano_ant": null,
+			"qt_clientes_ano_atu": null,
+			"qt_retencao": null,
+			"in_retencao": null,
+			"qt_novos_clientes": null,
+			"in_abrangencia": null,
+			"in_exclusividade": "N",
+			"in_venda_agenciada": null,
+			"vl_venda_agenciada": "0.00000",
+			"ds_crop_year": null,
+			"dt_insercao_registro": "2018-03-12 11:35:03",
+			"dt_atualiz_registro": null,
+			"cd_execucao": null
+		}
+	],
+	"detalhes-pog": [
+		// GET /monsanto/detalhes/pog?ge=1830205&produto-1=MILHO&produto-2=SORGO&marca=Agroceres&cy=CY17
 		{
-			"id": 2,
-			"name": "PROJETO AGRÍCOLA",
-			"meta": 8,
-			"atingido": 5
-		},
+			"nr_ordem": "2",
+			"ds_ano": "2017",
+			"ds_mes": "5",
+			"cd_idcliente": "1885806",
+			"ds_cliente": "3 F REPRES AGR LTDA EPP (1885806 - JATAI)",
+			"cd_produto": "11243219",
+			"ds_grupo_cliente": "TRADICIONAL",
+			"ds_uf": "GO",
+			"ds_municipio": "JATAI",
+			"cd_id_distrito": "422",
+			"cd_distrito": "3086386",
+			"ds_distrito": "JATAI-DKB",
+			"cd_id_regional": "BMTD",
+			"ds_regional": "MT / GOIAS-DK",
+			"cd_id_unidade": "BDNOR",
+			"vl_unidade": "DKB NORTE",
+			"ds_tipo_produto": "MILHO",
+			"ds_grupo_produto": "Alto",
+			"ds_produto": "C DK DKB390PRO SAG C1 60M BR",
+			"ds_abrev_produto": null,
+			"ds_marca": "Dekalb",
+			"ds_tecnologia": "VT PRO",
+			"nr_estoque_inicial": "0,477",
+			"nr_venda": "0",
+			"nr_devolvido": "0",
+			"nr_exportacao": "0",
+			"nr_importacao": "0",
+			"nr_estoque_final": "0,477",
+			"nr_pog": "0",
+			"ds_epoca": "CY17",
+			"ds_cy": "CY17",
+			"dt_insercao_registro": "2018-03-03 14:23:19",
+			"cd_execucao": "513"
+		}
+	],
+	"detalhes-refugio": [
+		// GET /monsanto/detalhes/refugio?ge=1830204&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17&compliance=NAO+CALCULADO
 		{
-			"id": 3,
-			"name": "COMPRA ESTRUTURADA",
-			"meta": 1400,
-			"atingido": 1000
-		},
+			"sk_distribuidor":"",
+			"ds_crop_year":"",
+			"sk_agricultor":"",
+			"sacas_bt":"",
+			"sacas_nbt":"",
+			"sacas_total":"",
+			"sacas_compliance":""
+		}
+	],
+	"detalhes-compra-estruturada": [
+		// GET /monsanto/detalhes/compra-estruturada?ge=1830205&culutra=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17
 		{
-			"id": 4,
-			"name": "REFÚGIO",
-			"meta": 75,
-			"atingido": 60
+			"sk_venda_sap": "1579416",
+			"sk_tipo_venda": "806",
+			"sk_distribuidor": "-1",
+			"sk_geografia_distribuidor": "-1",
+			"sk_produto": "2919",
+			"sk_tecnologia": "90",
+			"sk_matriz": "-1",
+			"sk_filial": "-1",
+			"sk_categoria_distribuidor": "1",
+			"sk_programa_agricola": "-1",
+			"in_agenciada": "N",
+			"cd_nota_fiscal": "000392729-6",
+			"dt_ordem": null,
+			"dt_faturamento": "0017-01-06",
+			"dt_vencimento": "0017-01-06",
+			"ds_crop_year": "CY17",
+			"ds_status": "Faturado",
+			"qt_sacas": "-54",
+			"vl_sacas": "-24058.000",
+			"dt_insercao_registro": "2018-03-12 14:27:39",
+			"dt_atualiz_registro": "2018-03-12 14:27:39",
+			"cd_execucao": "0"
+		}
+	],
+	"detalhes-projeto-agricola": [
+		// GET /monsanto/detalhes/projeto-agricola?ge=1830205
+		{
+		  "cd_sap_matriz": "3532366",
+		  "ds_dealer": "AGRONEGOCIOS OKADA E OLIVEIRA LTDA - ME",
+		  "cd_code_sap_filial": "3532366",
+		  "ds_dealer_corporate_name": "AGRONEGOCIOS OKADA E OLIVEIRA LTDA - ME",
+		  "ds_crop_year": "17/18",
+		  "ds_nome_vendedor": "Cassio Braga Carvalho",
+		  "vl_cpf_vendedor": "033.224.116-56",
+		  "qt_qtde_agricultores": "9",
+		  "qt_qtde_projetos": "9",
+		  "dt_insercao_registro": "2018-02-26 19:10:46",
+		  "cd_execucao": "201"
+		}
+	],
+	"detalhes-retencao": [
+		// GET /monsanto/detalhes/retencao?ge=1830205&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy-1=CY17&cy-2=CY17
+		{
+			"sk_distribuidor":"",
+			"ds_crop_year":"",
+			"sk_agricultor":""
+		}
+	],
+	"detalhes-abrangencia": [
+		// GET /monsanto/detalhes/abrangencia?ge=1830205&milho=Milho&marca=AGROCERES&programa=AlianÁa&cy-1=CY17&cy-2=CY17
+		{
+			"sk_distribuidor":"",
+			"ds_crop_year":"",
+			"sk_agricultor":""
+		}
+	],
+	"detalhes-premiacao-distribuidor": [
+		// GET /monsanto/detalhes/premiacao-distribuidor?ge=1830205&cultura=Milho&marca=AGROCERES&programa=AlianÁa&cy=CY17
+		{
+		  "sk_faturamento": "3508",
+		  "sk_distribuidor": "1281",
+		  "sk_programa_agricola": "9",
+		  "sk_categoria_distribuidor": "18",
+		  "sk_geografia_distribuidor": "-1",
+		  "qt_pog": "0",
+		  "qt_faturado": "6551",
+		  "vl_faturado": "1002.24",
+		  "vl_preco_medio_compra_liquida": "0.15",
+		  "vl_preco_medio_venda_agenciada": "0.00",
+		  "vl_faturado_venda_agenciada": "0.00",
+		  "qt_faturado_venda_agenciada": "0",
+		  "qt_devolucao": null,
+		  "vl_devolucao": null,
+		  "vl_desconto_por_devolucao": null,
+		  "vl_rebate": "0.00",
+		  "vl_rebate_bruto": "0.00",
+		  "vl_rebate_final": null,
+		  "vl_programa_vendedor": null,
+		  "vl_desconto_analise_um": "0.00",
+		  "vl_desconto_analise_dois": "0.00",
+		  "vl_apos_customer_acomodation": null,
+		  "in_analise_cred_um": "S",
+		  "in_analise_cred_dois": "S",
+		  "in_customer_acomodation": null,
+		  "ds_crop_year": "CY17",
+		  "vl_parcela_pog": null,
+		  "vl_parcela_compra_estruturada": null,
+		  "vl_parcela_refugio": null,
+		  "vl_parcela_projeto": null,
+		  "vl_parcela_exclusividade": null,
+		  "vl_parcela_retencao": null,
+		  "vl_parcela_abrangencia": null,
+		  "dt_referencia": "2018-03-07",
+		  "dt_insercao_registro": "2018-03-07 16:31:39",
+		  "dt_atualiz_registro": "2018-03-07 16:31:39",
+		  "cd_execucao": "0"
 		}
 	]
 }
